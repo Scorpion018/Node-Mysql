@@ -1,0 +1,32 @@
+{
+  "name": "vishutest",
+  "version": "1.0.0",
+  "description": "Testing aplication",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Vishu",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "mongodb": "^4.12.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "prettier": "2.8.0"
+  }
+}

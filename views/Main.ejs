@@ -1,0 +1,30 @@
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Account</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+        <body class="allelements">     
+          <div style='display:flex'>   
+    <table>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Member Since</th>
+    <th>Address</th>
+    <th>Pincode</th>
+  </tr>
+  <%path.forEach(function(details){%>
+  <tr>
+    <td><%= details.Name %></td>
+    <td><%= details.Age %></td>
+    <td><%= details.member %></td>
+    <td><%= details.address ? details.address : 'NA' %></td>
+    <td><%= details.pincode ? details.pincode : 'NA' %></td>
+  </tr>
+  <%})%>
+</table>
+</div>
+    </body>
+
+</html>
